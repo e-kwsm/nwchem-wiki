@@ -595,7 +595,7 @@ Using the Ewald decomposition
 
 <img alt="$$\frac{1}{r_{12}} = \frac{\alpha + \beta \texttt{erf}(\mu r_{12})}{r_{12}} + \frac{1 - [\alpha + \beta \texttt{erf}(\mu r_{12})]}{r_{12}}$$" src="svgs/702839e7c548f54d8f5b49f0a3ad6824.svg?invert_in_darkmode&sanitize=true" align=middle width="254.98902pt" height="33.14091pt"/>
 
-we can split the the Exchange interaction as
+we can split the Exchange interaction as
 
 <img alt="$$E_{X} = E_X^{LR} + E_X^{SR}$$" src="svgs/7b23a639e12d5c9a1bfa2148db98ab10.svg?invert_in_darkmode&sanitize=true" align=middle width="130.9704pt" height="27.59823pt"/>
 
@@ -1126,7 +1126,7 @@ population schemes can be used. The Lowdin scheme is default while the
 Mulliken scheme is not recommended. If basis sets with many diffuse
 functions are used, the Becke population scheme is recommended.
 
-Multiple constraints can be defined simultaniously by defining multiple
+Multiple constraints can be defined simultaneously by defining multiple
 cdft lines in the input. The same population scheme will be used for all
 constraints and only needs to be specified once. If multiple population
 options are defined, the last one will be used. When there are
@@ -1743,7 +1743,7 @@ task dft
 
 ## FUKUI: Fukui Indices
 
-Fukui inidces analysis is invked by the keyword:
+Fukui indices analysis is invoked by the keyword:
 
 ```
  FUKUI

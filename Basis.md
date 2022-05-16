@@ -32,7 +32,7 @@ The general form of the BASIS directive is as follows:
        ...  
  END
 ```
-The folllwing sections examine the keywords on the first line of the BASIS directive:
+The following sections examine the keywords on the first line of the BASIS directive:
 
 ### Basis set NAME
  `NAME` :    

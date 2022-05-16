@@ -78,7 +78,7 @@ transition. The computational cost per state of TDDFT calculations
 scales as the same as the ground state DFT calculations, although the
 prefactor of the scaling may be much greater in the former.
 
-A very simple and effecive way to rectify the TDDFT's failure for
+A very simple and effective way to rectify the TDDFT's failure for
 Rydberg excited states has been proposed by Tozer and Handy[^8] and by Casida and
 Salahub[^5]. They proposed to splice a *-1/r*
 asymptotic tail to an exchange-correlation potential that does not have

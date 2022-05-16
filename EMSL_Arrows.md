@@ -220,7 +220,7 @@ Mopac PM3 calculation of caffeine
 ```
 Caffeine theory{pm3}
 ```
-Aperiodic plane-wave DFT calculation of triplet cabon tetrachloride
+Aperiodic plane-wave DFT calculation of triplet carbon tetrachloride
 ```
 C(Cl)(Cl)(Cl)Cl mult{3} theory{pspw4}  
 ```

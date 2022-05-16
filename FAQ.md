@@ -269,7 +269,7 @@ The only way to increase the number of digits of the AO overlap matrix printout 
 the `ga_print()` function.
 
 For example, in the cagse NWChem 7.0.2, you can do this by editing the C source code in
-$NWCHEM_TOP/src/tools/ga-5.7.2/global/src/global.util.c by increaseing the number of digits from 5 to 7
+$NWCHEM_TOP/src/tools/ga-5.7.2/global/src/global.util.c by increasing the number of digits from 5 to 7
 
 ```
 --- global.util.c.org 1969-07-20 15:50:45.000000000 -0700

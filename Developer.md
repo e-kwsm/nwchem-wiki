@@ -43,7 +43,7 @@ TBD Instructions on Fork & Pull
 1.  Before committing any changes or additions, make sure the NWChem
     tree compiles properly
 2.  Run QA tests (if not the full suite, please try the one relevant for the NWChem module you have just modified).
-2.  When adding new files, make sure to properly update the GNUMakefile
+2.  When adding new files, make sure to properly update the GNUmakefile
     in the directory you are working in, so that the new file gets
     compiled
 3.  Do document your changes and additions using the "-m" option of git
@@ -208,7 +208,7 @@ infrastructure needed to manage all aspects of a DFT energy expression
 in one place, including the range separation of the exchange integrals
 and dispersion corrections.
 
-The derivatives of the density functionals can be optained in two
+The derivatives of the density functionals can be obtained in two
 different ways:
 
   - by automatic differentiation
@@ -293,7 +293,7 @@ API routines of the NWXC module are
 
 #### Adding new functionals
 
-Within the NWXC module specific terms of the density fucntionals are
+Within the NWXC module specific terms of the density functionals are
 identified by an integer constant. These constants are listed in
 <b>nwxcP.fh</b>, Currently the order of the constants is: exchange
 functionals first, correlation functionals second, and finally combined

@@ -244,7 +244,7 @@ this is the default, explicit specification of the units is not actually
 necessary, however.) The CHARGE directive defines the total charge of
 the system. This calculation is to be done on an ion with charge +1.
 
-A small basis set (STO-3G) is specified for the intial geometry
+A small basis set (STO-3G) is specified for the initial geometry
 optimization. Next, the multiple lines of the first SCF directive in the
 scf ...end block specify details about the SCF calculation to be
 performed. Unrestricted Hartree-Fock is chosen here (by specifying the

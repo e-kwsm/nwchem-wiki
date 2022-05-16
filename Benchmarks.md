@@ -64,7 +64,7 @@ of Physical Chemistry implementations of two variants of state-specific
 MRCC approaches have been developed. During his internship at PNNL Jirka
 Brabec, using novel processor-group-based algorithms, implemented
 Brillouin-Wigner and Mukherjee MRCC models with singles and doubles. The
-scalabililty tests for the Brillouin-Wigner MRCCSD approach have been
+scalability tests for the Brillouin-Wigner MRCCSD approach have been
 performed on Jaguar XT5 system at ORNL for <img alt="$\beta$" src="https://raw.githubusercontent.com/wiki/nwchemgit/nwchem/svgs/8217ed3c32a785f0b5aad4055f432ad8.svg?invert_in_darkmode&sanitize=true" align=middle width="10.1277pt" height="22.74591pt"/>-carotene in 6-31
 basis set (472 orbitals, 216 correlated electrons, 20 reference
 functions; see J.Brabec, J. Pittner, H.J.J. van Dam, E. Aprà, K.

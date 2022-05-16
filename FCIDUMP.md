@@ -1,6 +1,6 @@
 # FCIDUMP
 
-The FCIDUMP module write the 1-electron and 2-electron integrals to disk folllowing the format
+The FCIDUMP module write the 1-electron and 2-electron integrals to disk following the format
 specified in the paper  
 P.J. Knowles, N.C. Handy, 
 *Computer Physics Communications* **54**, 75-83 (1989). [DOI:10.1016/0010-4655(89)90033-7](https://doi.org/10.1016/0010-4655(89)90033-7)

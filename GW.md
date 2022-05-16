@@ -50,7 +50,7 @@ normal.
 
 In addition to an atomic orbital [basis set](Basis.md), the *GW* module **requires** 
 an *auxiliary basis set* to be provided in order to fit the four-center 
-electron repulsion integrals. The auxliary basis set can have either the
+electron repulsion integrals. The auxiliary basis set can have either the
  `cd basis` or `ri basis` names (see also [DFT](Density-Functional-Theory-for-Molecules.md#specification-of-basis-sets-for-the-dft-module)). Three combinations can be obtained:
 
   - If a `ri basis` is given without a `cd basis`,
@@ -99,7 +99,7 @@ The `FIRST` keyword has no meaning without `CORE` specified.
 
 ### EVGW and EVGW0
 
-The `EVGW` keyword trigger the partial self-consistnet ev*GW* approach,
+The `EVGW` keyword trigger the partial self-consistent ev*GW* approach,
 where both the Green's function *G* and the screened Coulomb *W* are updated
 by using the quasiparticle energies from the previous step in their 
 construction. 
@@ -192,7 +192,7 @@ states in the respective space.
 
 ### CONVERGENCE
 
-The converegnce threshold of the quasiparticle equations can
+The convergence threshold of the quasiparticle equations can
 be controlled with the keyword `CONVERGENCE` and might be
 given either in `eV` or Hartree `au`.
 

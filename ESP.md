@@ -77,7 +77,7 @@ using
        constrain <real charge {<integer iatom>}
 ```  
 where `charge` is the net charge of the set of atoms `{iatom}`. A negative atom number iatom can be  
-used to specify that the partial charge of that atom is substracted in the sum for the set.
+used to specify that the partial charge of that atom is subtracted in the sum for the set.
 
   - The net charge of a sequence of atoms can be constrained using
 ```

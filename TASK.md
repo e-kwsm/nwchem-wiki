@@ -13,7 +13,7 @@ directive. If it is not, a warning message is printed. Since the
 database is persistent, multiple tasks within one job behave exactly the
 same as multiple restart jobs with the same sequence of input.
 
-There are four main forms of the the TASK directive. The most common
+There are four main forms of the TASK directive. The most common
 form is used to tell the code at what level of theory to perform an
 electronic structure calculation, and which specific calculations to
 perform. The second form is used to specify tasks that do not involve

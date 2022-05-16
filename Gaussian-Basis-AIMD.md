@@ -64,7 +64,7 @@ used in generating initial velocities from the Maxwell-Boltzmann
 distribution.  
 Default: 298.15 K
 
-### THERMOSTAT: Thermostat for controling temperature of the simulation
+### THERMOSTAT: Thermostat for controlling temperature of the simulation
 
 This specifies the thermostat to use for regulating the temperature of
 the nuclei. Possible options are:
@@ -122,7 +122,7 @@ If present, the code assumes the molecule is linear.
 If present, the code will look for the property block and calculate the requested properties.  
 For example, `property 5` will calculate properties on the current geometry every 5 steps.  
 
-### TDDFT: How often to peform TDDFT calculation as part of the MD simulation  
+### TDDFT: How often to perform TDDFT calculation as part of the MD simulation  
 
 If present, the code will look for the tddft block and calculate the absorption spectrum.  
 For example, `tddft 5` will perform tddft calculations on the current geometry every 5 steps.
@@ -208,7 +208,7 @@ task tddft qmd
 
 ### Property calculation in a Molecular Dynamics simulation
 
-Thefollowing is a sample input for an MD simulation that compute
+The following is a sample input for an MD simulation that compute
 polarizability by means of the
 [SOS method](Properties.md#polarizability-computed-with-the-sum-over-orbitals-method)
 at each time step.

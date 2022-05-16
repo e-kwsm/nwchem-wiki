@@ -92,7 +92,7 @@ Analyses can be applied to a selection of solute atoms and solvent molecules. Th
 `select ( [ super ] [ { <string atomlist> } ] |`
 `   solvent <real range> | save <string filename> | read <string filename> )`
 
-where {atomlist} is the set of atom names selected from the specified residues. By default all solute atoms are selected. When keyword super is specified the selecion applies to the superimposition option.
+where {atomlist} is the set of atom names selected from the specified residues. By default all solute atoms are selected. When keyword super is specified the selection applies to the superimposition option.
 
 The selected atoms are specified by the string atomlist which takes the form
 
@@ -175,7 +175,7 @@ Analyses on atoms in a predefined group are specified by
 `      ( local [`<real rsel default 0.0>`] [`<real rval default rsel>`]`
 `        `<string function>` )`
 
-where igroup specifies the group of atoms defined with a define directive. Keyword periodic can be used to specify the periodicity, ipbc=1 for periodicity in z, ipbc=2 for periodicity in x and y, and ipbc=3 for periodicity in x, y and z. Currently the only option is local which prints all selected solute atom with a distance between rsel and rval from the atoms defined in igroup. The actual analysis is done by the scan deirective. A formatted report is printed from group analyses using
+where igroup specifies the group of atoms defined with a define directive. Keyword periodic can be used to specify the periodicity, ipbc=1 for periodicity in z, ipbc=2 for periodicity in x and y, and ipbc=3 for periodicity in x, y and z. Currently the only option is local which prints all selected solute atom with a distance between rsel and rval from the atoms defined in igroup. The actual analysis is done by the scan directive. A formatted report is printed from group analyses using
 
 `report `<string filename>` local`
 
@@ -193,9 +193,9 @@ Coordinate histograms are specified by
 
 `histogram `<integer idef>` [`<integer length>`] zcoordinate `<string filename>
 
-where *idef* is the atom group definition number, *length* is the size of the histogram, zcoordinate is the currently only histogram option, and <img alt="$filename$" src="https://raw.githubusercontent.com/wiki/nwchemgit/nwchem/svgs/ebe1efea94507a0bee82dbc9ac2d018a.svg?invert_in_darkmode&sanitize=true" align=middle width="68.75649pt" height="22.74591pt"/> is the filname to which the histogram is written.
+where *idef* is the atom group definition number, *length* is the size of the histogram, zcoordinate is the currently only histogram option, and <img alt="$filename$" src="https://raw.githubusercontent.com/wiki/nwchemgit/nwchem/svgs/ebe1efea94507a0bee82dbc9ac2d018a.svg?invert_in_darkmode&sanitize=true" align=middle width="68.75649pt" height="22.74591pt"/> is the filename to which the histogram is written.
 
-Order parameters are evalated using
+Order parameters are evaluated using
 
 `order <integer isel> <integer jsel> <string atomi> <string atomj>`
 
@@ -237,7 +237,7 @@ To write a single frame in PDB or XYZ format, use
 
 `write [`<integer number default 1>`] [super] [solute] `<string filename>
 
-To copy the selected frames from the specified trejctory file(s), onto a new file, use
+To copy the selected frames from the specified trajectory file(s), onto a new file, use
 
 `copy  [solute] [rotate `<real tangle>`] `<string filename>
 
@@ -245,7 +245,7 @@ To superimpose the selected atoms for each specified frame to the reference coor
 
 `super [solute] [rotate `<real tangle>`] `<string filename>
 
-The rotate directive specifies that the structure will make a full ratation every tangle ps. This directive only has effect when writing povray files.
+The rotate directive specifies that the structure will make a full rotation every tangle ps. This directive only has effect when writing povray files.
 
 The format of the new file is determined from the extension, which can be one of
 

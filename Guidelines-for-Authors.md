@@ -5,7 +5,7 @@ been created to provide documentation related to NWChem. This
 includes the user manual, tutorials and common practices, as well as
 programmer references, as well as other useful information. In order to
 make this wiki as useful as possible to the NWChem community a certain
-level of consistency of style is useful. To asist with this and beause
+level of consistency of style is useful. To assist with this and because
 of the nature of the subject matter of this specific wiki a number of
 tools and extensions have been selected to help document relevant
 aspects. These tools and suggestions for their use will be discussed
@@ -20,7 +20,7 @@ wiki installation can found at
 [Special:Version](Special:Version). For the purpose of this
 wiki there are a number of aspects that are relevant. These include
 [Links](#links),
-[Picturs](#pictures).
+[Pictures](#pictures).
 
 ### Links
 

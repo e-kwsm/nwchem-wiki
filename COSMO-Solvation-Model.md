@@ -140,20 +140,20 @@ by Stefanovich and Truong[^7], mainly "(&epsilon;-1)/&epsilon;".
 Default is to use the modified scaling. For high dielectric the
 difference between the scaling is not significant.
 
-The next two parameters define the tesselation of the unit sphere. The
+The next two parameters define the tessellation of the unit sphere. The
 approach still follows the original proposal by Klamt and Schürmann to
-some degree. Basically a tesselation is generated from `minbem` refining
+some degree. Basically a tessellation is generated from `minbem` refining
 passes starting from either an octahedron or an icosahedron. Each level
-of refinement partitions the triangles of the current tesselation into
+of refinement partitions the triangles of the current tessellation into
 four triangles. This procedure is repeated recursively until the desired
-granularity of the tesselation is reached. The induced point charges
+granularity of the tessellation is reached. The induced point charges
 from the polarization of the medium are assigned to the centers of the
-tesselation. The default value is `minbem 2`. The flag `ificos` serves
-to select the original tesselation, `ificos 0` for an octahedron
-(default) and `ificos 1` for an icoshedron. Starting from an icosahedron
-yields a somewhat finer tesselation that converges somewhat faster.
+tessellation. The default value is `minbem 2`. The flag `ificos` serves
+to select the original tessellation, `ificos 0` for an octahedron
+(default) and `ificos 1` for an icosahedron. Starting from an icosahedron
+yields a somewhat finer tessellation that converges somewhat faster.
 Solvation energies are not really sensitive to this choice for
-sufficiently fine tesselations. The old "maxbem" directive is no longer
+sufficiently fine tessellations. The old "maxbem" directive is no longer
 used.
 
 The `lineq` parameter serves to select the numerical algorithm to solve
@@ -172,7 +172,7 @@ implementation.
 
 `gamma_s` modifies the width of the smooth switching function that
 eliminates surface charges when their positions move into the sphere of
-a neighboring atom. `gamma_s 0.0` leads to a heavyside or abrupt
+a neighboring atom. `gamma_s 0.0` leads to a Heaviside or abrupt
 switching function, whereas `gamma_s 1.0` maximizes the width of the
 switching function. The default value is `gamma_s 1.0`.
 
