@@ -211,7 +211,7 @@ To modify the temperature of the computation you can simply use:
  temp 4 298.15 300.0 350.0 400.0
 ```
 
-At this point, the temperatures are persistant and so the user must
+At this point, the temperatures are persistent and so the user must
 "reset" the temperature if the standard behavior is required after
 setting the temperatures in a previous "VIB" command, i.e.
 

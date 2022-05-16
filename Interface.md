@@ -166,7 +166,7 @@ must be preceded by a backslash to avoid special interpretation.
 
 #### POLYRATE related options
 
-These keyword options are simlar to the POLYRATE input format, except
+These keyword options are similar to the POLYRATE input format, except
 there are no ENERGETICS, OPTIMIZATION, SECOND, TUNNELING, and RATE
 sections.
 

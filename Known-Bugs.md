@@ -32,7 +32,7 @@ sudo dpkg -i nwchem-data_7.0.0-3*_bionic.deb  nwchem_7.0.0-3*_bionic.deb
 
 ###  Known bugs for NWChem 6.8
 
-* _AR comppilation failure on Mac OSX_   
+* _AR compilation failure on Mac OSX_   
 [https://github.com/nwchemgit/nwchem/issues/5](https://github.com/nwchemgit/nwchem/issues/5)
 Temporary fix: set the env. variable USE_ARUR=n, e.g.
 ```
