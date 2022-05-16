@@ -217,7 +217,7 @@ to be found in column 12. What atom type does is to identify what
 classical parameters should be assigned to it. Since, as mentioned in
 the beginning, we are planing to treat this residue/molecule as part of
 QM region, the only classical information needed is VDW parameters. We
-will assume that all nitrogens atoms in our molecule can use the same
+will assume that all nitrogen atoms in our molecule can use the same
 set of parameters, and the same for oxygens. Therefore we will define
 two atom types NX and OX  
 ```

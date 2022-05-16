@@ -296,7 +296,7 @@ The variable touch specifies the minimum distance between a solvent and solute a
 ```
 envelope `<real xpndw default 0.0>
 ```
-sets the expand vealues to be used in solvate operations.
+sets the expand values to be used in solvate operations.
 ```
 expand <real xpndw default 0.1>
 ```
@@ -313,7 +313,7 @@ This directive scales the volume and coordinates written to povray files. A nega
 ```
 cpk [<real cpk default 1.0>]
 ```
-This directive causes povray files to contain cpk model output. The optional value is used to scale the atomic radii. A neagtive value of cpk resets the rendering to stick.
+This directive causes povray files to contain cpk model output. The optional value is used to scale the atomic radii. A negative value of cpk resets the rendering to stick.
 ```
 center | centerx | centery | centerz
 ```

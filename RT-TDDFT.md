@@ -10,7 +10,7 @@ linear-response (LR) [TDDFT](Excited-State-Calculations.md)
 methods, but instead of a frequency domain solution to the TDKS
 equations, RT-TDDFT yields a full time-resolved, potentially non-linear
 solution. Real-time simulations can be used to compute not only
-spectroscopic properties (e.g., absorption spectra, polarizabilites,
+spectroscopic properties (e.g., absorption spectra, polarizabilities,
 etc), but also the time and space-resolved electronic response to
 arbitrary external stimuli (e.g., electron charge dynamics after laser
 excitation). For theoretical and computational details, please refer to
@@ -265,7 +265,7 @@ end
 
 This turns on run-time profiling, which will display time spent in each
 component of the code (e.g., building components of the TD Fock matrix,
-properites, etc). This slows code down slightly and results in very
+properties, etc). This slows code down slightly and results in very
 verbose output.
 
 ```
@@ -602,7 +602,7 @@ resulting time-dependent dipole moments:
 <img alt="Time-dependent dipole moments" src="https://raw.githubusercontent.com/wiki/nwchemgit/nwchem/RT_TDDFT_h2o_td_dipoles.png" align=middle with="730pt" height="200pt"/>  
 
 Now, we need to take the Fourier transforms of these dipole moments to
-yield the the x,x element of the 3x3 linear polarizability tensor, and
+yield the x,x element of the 3x3 linear polarizability tensor, and
 similarly for the y,y and z,z elements. Here I am using an FFT utility,
 although any discrete Fourier transform will do. To accelerate
 convergence of the FFT, I have damped the time signals by
@@ -620,7 +620,7 @@ moments.
 
 where *c* is the speed of light (137 in atomic units), *&kappa;*  is
 the kick electric field strength, and *&alpha;(&omega;)* is the linear
-polarizabilty tensor computed from the Fourier transforms of the
+polarizability tensor computed from the Fourier transforms of the
 time-dependent dipole moments. For example,
 
 ```

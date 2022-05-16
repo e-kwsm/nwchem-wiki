@@ -462,7 +462,7 @@ In an ideal world the geometry and basis set objects would have full
 Python wrappers, but until then a back-door solution will have to
 suffice. We've already seen how to use `input_parse()` to put geometry
 (and basis) data into NWChem, so it only remains to get the geometry
-data back after it has been updated by a geometry optimzation or some
+data back after it has been updated by a geometry optimization or some
 other operation.
 
 The following Python procedure retrieves the coordinates in the same
@@ -526,7 +526,7 @@ NWChem input and pass it to `input_parse()` rather than setting
 parameters directly in the
 database.
 
-### Scaning a basis exponent yet again: plotting and handling child processes
+### Scanning a basis exponent yet again: plotting and handling child processes
 ```
  geometry units au  
    O 0 0 0; H 0 1.430 -1.107; H 0 -1.430 -1.107  
