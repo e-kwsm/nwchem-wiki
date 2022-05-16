@@ -90,7 +90,7 @@ integral terms).
 The contracted basis sets used in the calculations should reflect the
 relativistic effects, i.e. one should use contracted basis sets which
 were generated using the Douglas-Kroll Hamiltonian. Basis sets that were
-contracted using the non-relativistic (Schödinger) Hamiltonian WILL
+contracted using the non-relativistic (Schrödinger) Hamiltonian WILL
 PRODUCE ERRONEOUS RESULTS for elements beyond the first row. See
 appendix A for available basis sets and their naming convention.
 
@@ -159,7 +159,7 @@ For model potentials constructed from 2-component densities:
 
 Both approaches are comparable in accuracy and depends on the system.
 
-## Dyall's Modified Dirac Hamitonian approximation
+## Dyall's Modified Dirac Hamiltonian approximation
 
 The approximate methods described in this section are all based on
 Dyall's modified Dirac Hamiltonian. This Hamiltonian is entirely
