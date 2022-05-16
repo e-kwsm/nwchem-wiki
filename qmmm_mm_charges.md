@@ -7,7 +7,7 @@ mm_charges [exclude <(none||all||linkbond||linkbond_H) default none>]
 This directive controls treatment of classical point (MM) charges that
 are interacting with QM region. For most QM/MM applications the use of
 directive will be not be necessary. Its absence would be simply mean
-that all MM charges within the cuttof distance ( as specified by cutoff
+that all MM charges within the cutoff distance ( as specified by cutoff
 ) as well those belonging to the charges groups directly bonded to QM
 region will be allowed to interact with QM region.
 
