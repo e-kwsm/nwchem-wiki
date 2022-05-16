@@ -70,7 +70,7 @@ The following list describes the input for the NEB block
     Verlet optimization, 2: refining conjugate gradient optimization
   - IMPOSE - if specified causes the initial geometries used to specify
     the path to be aligned with one another
-  - HASMIDDLE - if specified causes the initial path to use the the
+  - HASMIDDLE - if specified causes the initial path to use the
     "midgeom" geometry to be used as the midpoint, i.e. the initial path
     is defined as a linear morphing from "geometry" --\> "midgeom" --\>
     "endgeom"
@@ -427,7 +427,7 @@ The following list describes the input for the STRING block
   - **interpol** - 1: linear, 2: spline, 3: Akima spline
   - IMPOSE - if specified causes the initial geometries used to specify
     the path to be aligned with one another
-  - HASMIDDLE - if specified causes the initial path to use the the
+  - HASMIDDLE - if specified causes the initial path to use the
     "midgeom" geometry to be used as the midpoint, i.e. the initial path
     is defined as a linear morphing from "geometry" --\> "midgeom" --\>
     "endgeom"
@@ -723,7 +723,7 @@ file.
 @zts Bead number   20  Potential Energy =     -92.882700859222
 ```
 A plotting program (e.g. gnuplot, xmgrace) can be used to look at final
-path as well as the the convergence of the path
+path as well as the convergence of the path
 i.e.,
 ```
 [WE24397:NEB/Example2/perm] bylaska% gnuplot  

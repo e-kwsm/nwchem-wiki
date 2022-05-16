@@ -96,10 +96,10 @@ If <img alt="$N_{model}$" src="https://raw.githubusercontent.com/wiki/nwchemgit/
 then these should be specified first in the geometry. Similarly, in a
 three-layer calculation, if there are <img alt="$N_{inter}$" src="https://raw.githubusercontent.com/wiki/nwchemgit/nwchem/svgs/a0974a9c9e88110489b9327f7d294bd3.svg?invert_in_darkmode&sanitize=true" align=middle width="43.48179pt" height="22.38192pt"/> atoms to be included
 in the intermediate system, then these should also be arranged together
-at the beginning of the geometry. The implict assumption is that the
+at the beginning of the geometry. The implicit assumption is that the
 model system is a subset of the intermediate system which is a subset of
 the real system. The number of atoms to be included in the model and
-intemediate systems are specified using the MODEL and INTER directives.
+intermediate systems are specified using the MODEL and INTER directives.
 Optionally, the total charge of the model and intermediate systems may
 be adjusted. The default is that all three systems have the same total
 charge.
