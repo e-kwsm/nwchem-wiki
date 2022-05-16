@@ -16,7 +16,7 @@ the input for this directive is processed. However, if the SYMMETRY
 directive is used, a group name must be specified by supplying an entry
 for the string variable `<group_name>` or `<group number>`. The latter is
 useful for the space groups discussed in the section below. The group
-name should be specified as the standard Schöflies symbol. Examples of
+name should be specified as the standard Schönflies symbol. Examples of
 expected input for the variable group\_name include such entries as:
 
 -   c2v - for molecular symmetry *C*<sub>2*v*</sub>

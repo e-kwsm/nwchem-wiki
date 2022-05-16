@@ -203,7 +203,7 @@ requirement is proportional to the `tilesize`<sup>4</sup>. In approaches
 accounting for triples, either in iterative or non-iterative fashion,
 the local memory usage is proportional to `tilesize`<sup>6</sup>. This means
 that in the CCSD(T), CCSDt, CCSDT, CR-EOMCCSD(T), EOMCCSDt, EOMCCSDT,
-LR-CCSDT caluclations the tilesize cannot be defined too large.
+LR-CCSDT calculations the tilesize cannot be defined too large.
 
 ### Dynamic load balancing parallelism
 
