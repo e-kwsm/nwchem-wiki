@@ -34,7 +34,7 @@ Files involved in the preparation phase exist in the following hierarchy:
 -   current files :
     Database files that contain user preferred extensions to the original force field and are to reside in a separate directory that is specified in the file $HOME/.nwchemrc. Typically this will be the current working directory, although it may be defined as a specific directory. This directory may contain fragment files (with extension frg), segment files (with extension sgm) and a parameter file (with the name of the force field and with extension par). If not specified, files will be taken from the current directory.
 
-Data is taken from the database files searched in the above order. If data is specified more than once, the last found values are used. For example, if some standard segment is redefined in a temporary file, the latter one will be used. This allows the user to redefine standards or extensions without having to modify those database files, which may reside in a generally available, non-modifyable directory. If a filename is specified rather than a directory, the filename indicates the parameter file definition. All other files (frg and sgm files) will be take from the specified directory.
+Data is taken from the database files searched in the above order. If data is specified more than once, the last found values are used. For example, if some standard segment is redefined in a temporary file, the latter one will be used. This allows the user to redefine standards or extensions without having to modify those database files, which may reside in a generally available, non-modifiable directory. If a filename is specified rather than a directory, the filename indicates the parameter file definition. All other files (frg and sgm files) will be take from the specified directory.
 
 The most common problems with the prepare module are
 
@@ -275,7 +275,7 @@ new_rst
 ```
 Keyword new\_rst will cause an existing restart file to be overwritten with a new file.
 
-The follwing directives control the manipulation of restart files, and are executed in the order in which they appear in the prepare input deck.
+The following directives control the manipulation of restart files, and are executed in the order in which they appear in the prepare input deck.
 ```
  solvent name <string*3 slvnam default 'HOH'> \  
          model <string slvmdl default 'spce'>  
@@ -288,7 +288,7 @@ solvate   [ < real rshell default 1.2 > ] \
           [ sphere <real radius> ] |
           [ troct <real edge> ])
 ```
-Solvation can be specified to be in a cubic box with specified edge, rectangular box with specified edges, or in a sphere with specified radius. Solvation in a cube or rectangular box will automatically also set periodic boundary conditions. Solvation in a sphere will only allow simulations without periodic boundary conditions. The size of the cubic and rectangular boxes will be expanded by a length specified by the expand variable. If no shape is specified, solvation will be done for a cubic box with an edge that leaves rshell nm between any solute atom and a periodic image of any solute atom after the solute has been centered. An explicit write is not needed to write the restart file. The solvate will write out a file sys\_calc.rst. If not specified, the dimension of the solvation cell will be as large as to have at least a distance of rshell nm between any solute atom and the edge of the cell. The experimental troct directive generates a truncated octrahedral box.
+Solvation can be specified to be in a cubic box with specified edge, rectangular box with specified edges, or in a sphere with specified radius. Solvation in a cube or rectangular box will automatically also set periodic boundary conditions. Solvation in a sphere will only allow simulations without periodic boundary conditions. The size of the cubic and rectangular boxes will be expanded by a length specified by the expand variable. If no shape is specified, solvation will be done for a cubic box with an edge that leaves rshell nm between any solute atom and a periodic image of any solute atom after the solute has been centered. An explicit write is not needed to write the restart file. The solvate will write out a file sys\_calc.rst. If not specified, the dimension of the solvation cell will be as large as to have at least a distance of rshell nm between any solute atom and the edge of the cell. The experimental troct directive generates a truncated octahedral box.
 ```
 touch <real touch default 0.23>
 ```

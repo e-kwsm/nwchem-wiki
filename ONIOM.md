@@ -132,7 +132,7 @@ type of link atom defaults to hydrogen, but any type may be specified
 associate a [geometrical center](Geometry) with an atom type
 and basis sets, etc. For each broken bond specify the numbers of the two
 atoms (i and j), the scale factor (g) and optionally the tag of the link
-atom. Link atoms are placed along the vector connecting the the first to
+atom. Link atoms are placed along the vector connecting the first to
 the second atom of the bond according to the equation
 
 <img alt="$\underline{R}_{link} = (1-g)\underline{R}_{1} + g*\underline{R}_{2}$" src="https://raw.githubusercontent.com/wiki/nwchemgit/nwchem/svgs/ef8d3972c822c37484342b86b5ad27ab.svg?invert_in_darkmode&sanitize=true" align=middle width="191.996145pt" height="24.56553pt"/>
